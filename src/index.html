@@ -14,8 +14,6 @@
 <body>
   <my-app>Loading...</my-app>
 
-
-
   {{#each scripts.polyfills}}
   <script src="{{.}}"></script>{{/each}}
   <script>
@@ -23,11 +21,6 @@
       System.import('main');
     }).catch(console.error.bind(console));
   </script>
-
-
-
-
-
 </body>
 
 </html>
