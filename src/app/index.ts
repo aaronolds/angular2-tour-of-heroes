@@ -1,2 +1,2 @@
 export * from './environment';
-export * from './angular2-tour-of-heroes.component';
+export * from './app.component';

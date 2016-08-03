@@ -29,6 +29,8 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/angular2-tour-of-heroes-detail',
+  'app/detail/hero-detail',
   /** @cli-barrel */
 ];
 
